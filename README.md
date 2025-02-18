@@ -2,15 +2,22 @@
 Instrucciones: 
 En esta prueba tienen que diseñar un cliente y un servidor de autenticación multihilo para
 invertir palabras:
+
 ● Los clientes envían al servidor una palabra.
+
 ● El servidor responde enviando al cliente la palabra al revés. Por ejemplo, si el
 cliente envía la palabra “procesos” recibirá como respuesta la palabra “sosecorp”.
+
 ● El cliente finaliza la conexión cuando envía la palabra “quit”.
 Deben incluir estos mensajes en la consola del servidor:
+
 ● Cuando el servidor se inicia, indicando el nº de puerto.
+
 ● Cuando se conecta un cliente, indicando la IP y el puerto desde el que se conecta.
+
 ● Cada vez que un cliente envía una palabra, indicando el número de cliente, la
 palabra enviada y la respuesta del servidor.
+
 ● Cuando finaliza la conexión con un cliente.
 Deben entregar un documento PDF con las capturas de pantalla que demuestren el
 funcionamiento de la aplicación, y el proyecto de NetBeans en formato zip y en GitHub.
